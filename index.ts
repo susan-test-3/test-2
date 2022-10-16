@@ -7,3 +7,4 @@ const bucket = new aws.s3.Bucket("my-bucket");
 
 // Export the name of the bucket
 export const bucketName = bucket.id;
+export const key = "value";
